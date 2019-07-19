@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type ="text/css" href ="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Unicase:700&display=swap" rel="stylesheet">
+    <link rel ="stylesheet" type ="text/css" href ="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Crystal Collector</title>
+</head>
+<body>
+
+<div class ="container">
+    <div class ="row">
+        <h1 class ="col-med-12">Crystal Collector</h1>
+    </div>
+    <div class = "row">
+        <div class ="col-med-12">
+            <p><span>You will be given a random target number at the start of the game.</span><br>
+            Clicking on the four crystals below will add a certain amount of points to your score.<br>
+            To win the game, match your points to the target number without going over!<br>
+            The point value of each crystal will remain hidden until it is clicked.<br>
+            All numbers are reset at the start of each game.<br>
+            <span>Good luck!</span></p>
+        </div>
+    </div>
+    <div class ="row">
+            <div class="col-md-3">
+                <div class="card mt-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Target Number</h5>
+                        <div class="card-text"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mt-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Your Score</h5>
+                        <div class="card-text"></div>
+                    </div>
+                </div>
+            </div>   
+    </div>
+    <div class ="row">
+        <div class ="col-md-2">
+            <button class ="button"><img src ="assets/images/crystal_1.png" width="80" height="80"></button>
+        </div>
+        <div class ="col-md-2">
+            <button class ="button"><img src ="assets/images/crystal_2.png" width="80" height="80"></button>
+        </div>
+        <div class ="col-md-2">
+            <button class ="button"><img src ="assets/images/crystal_3.png" width="80" height="80"></button>
+        </div>
+        <div class ="col-md-2">
+            <button class ="button"><img src ="assets/images/crystal_4.png" width="80" height="80"></button>
+        </div>
+    </div>
+    <div class ="row">
+        <div class ="col-md-2">
+            <div class="card mt-2">
+                <div class="card-body">
+                    <h5 class="card-title">Wins:</h5>
+                    <div class="wins-text"></div>
+                </div>
+            </div>
+        </div>
+        <div class ="col-md-2">
+            <div class="card mt-2">
+                <div class="card-body">
+                    <h5 class="card-title">Losses:</h5>
+                    <div class="losses-text"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <script type="text/javascript" src ="assets/javascript/game.js"></script>
+</body>
+</html>
