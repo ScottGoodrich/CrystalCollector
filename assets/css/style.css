@@ -8,11 +8,12 @@ body {
 }
 h1 {
     font-family: "Cormorant Unicase", serif;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: bold;
     color:yellow;
 }
 span {
+    font-size: 26px;
     color: yellow;
     font-weight: bold;
 }
@@ -25,6 +26,18 @@ p {
     background-color: rgba(236, 201, 85, 0.4);
     padding: 10px;
 }
+.target-text, .score-text {
+    font-size: 50px;
+    font-weight: bold;
+    color: yellow;
+    text-align: center;
+}
+.wins-text, .losses-text {
+    font-size: 30px;
+    font-weight: bold;
+    color: yellow;
+    text-align: center;
+}
 .card-title {
     text-align: center;
 }
@@ -36,15 +49,6 @@ h5 {
     font-family: "Cormorant Unicase", serif;
     font-size: 28px;
     color: black;
-}
-.stats {
-    line-height: 1.4;
-    font-family: "Cormorant Unicase", serif;
-    font-size: 22px;
-    font-weight: bold;
-    color:black;
-    background-color: rgb(37, 240, 240);
-    padding: 10px;
 }
 button {
     margin-top: 20px;
