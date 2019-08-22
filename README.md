@@ -1,4 +1,4 @@
-###Crystal Collector
+Crystal Collector
 
 https://thefly16.github.io/CrystalCollector/
 
